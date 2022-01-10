@@ -112,6 +112,10 @@ h6 {
   display: inline-block;
 }
 
+body {
+  padding-top: 100px;
+}
+
 .form__container {
   width: 460px;
   padding: 10px;
@@ -171,6 +175,12 @@ h6 {
   height: 20px;
   border: 0.3px solid #DEE6F0;
   padding-left: 7px;
+}
+
+.offer__title {
+  text-align: left;
+  border: none;
+  padding-bottom: 10px;
 }
 
 body {

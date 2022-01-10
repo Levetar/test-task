@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+  />
+  <meta name="description" content="Описание" />
+  <meta name="keywords" content="Ключевые слова" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="css/style.min.css" />
+  <script src="js/jquery.min.js"></script>
+  <title>Тестовое задание Попов И.А.</title>
+</head>
+<body>
+  <section class="form__container _container">
+    <form class="form" id="form" action="#">
+      <div class="form__row">
+        <label for="distance">Количество километров </label>
+        <input class="form__input" id="distance" type="text">
+      </div>
+      <div class="form__row">
+        <label for="age">Возраст </label>
+        <input class="form__input" id="age" type="text">
+      </div>
+      <div class="form__row">
+        <label for="baggage">Вес багажа </label>
+        <input class="form__input "id="baggage" type="text">
+      </div>
+      <div class="form__row">
+        <button class="form__btn" id="submit">Рассчитать</button>
+      </div>
+    </form>
+    <div class="offer">
+      <table>
+        <tr>
+          <td class="offer__row company">Аэрофлот</td>
+        </tr>
+        <tr>
+          <td class="offer__row">Эконом: <span id="aeroEconomy"></span></td>
+        </tr>
+        <tr>
+          <td class="offer__row">Продвинутый: <span id="aeroAdvanced"></span></td>
+        </tr>
+        <tr>
+          <td class="offer__row">Люкс: <span id="aeroLuxury"></span></td>
+        </tr>
+        <tr>
+          <td class="offer__row company">РЖД</td>
+        </tr>
+        <tr>
+          <td class="offer__row">Эконом: <span id="rzdEconomy"></span></td>
+        </tr>
+        <tr>
+          <td class="offer__row">Продвинутый: <span id="rzdAdvanced"></span></td>
+        </tr>
+        <tr>
+          <td class="offer__row">Люкс: <span id="rzdLuxury"></span></td>
+        </tr>
+      </table>
+    </div>
+  </section>
+  
+<script src="js/script.js"></script>
+</body>
+</html>
